@@ -15,6 +15,7 @@ class Question {
     var link: String!
     var questionID: Int!
     var owner: User!
+    var title: String!
     /*init(questionBody: String!, questionID: Int!, asker: User) {
         self.body = questionBody
         self.questionID = questionID
@@ -30,6 +31,7 @@ class Question {
         self.link = json["link"] as? String
         self.questionID = json["question_id"] as? Int
         self.owner = User(json: json["owner"] as NSDictionary)
+        self.title = json["title"] as? String
         println(self.body)
     }
     
