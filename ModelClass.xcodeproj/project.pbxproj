@@ -22,8 +22,18 @@
 		6D14D2A61986FF0E00E1396F /* SampleAnswer.json in Resources */ = {isa = PBXBuildFile; fileRef = 6D14D2A41986FF0E00E1396F /* SampleAnswer.json */; };
 		6D14D2AE1987036E00E1396F /* SampleUser.json in Resources */ = {isa = PBXBuildFile; fileRef = 6D14D2AD1987036E00E1396F /* SampleUser.json */; };
 		6D14D2AF1987036E00E1396F /* SampleUser.json in Resources */ = {isa = PBXBuildFile; fileRef = 6D14D2AD1987036E00E1396F /* SampleUser.json */; };
+		6D23D5FE198B171400BB38DD /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D23D5FD198B171400BB38DD /* MenuCell.swift */; };
+		6D23D604198B299F00BB38DD /* rootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D23D603198B299F00BB38DD /* rootViewController.swift */; };
 		6DA6561819899B5600EBDAED /* QuestionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA6561719899B5600EBDAED /* QuestionCell.swift */; };
 		6DA6561A1989A6FC00EBDAED /* SampleResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 6DA656191989A6FC00EBDAED /* SampleResponse.json */; };
+		6DC24D18198AEAAB00186C31 /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC24D17198AEAAB00186C31 /* Tag.swift */; };
+		6DC24D1A198AEB1B00186C31 /* TagTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC24D19198AEB1B00186C31 /* TagTests.swift */; };
+		6DC24D1B198AEB4500186C31 /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC24D17198AEAAB00186C31 /* Tag.swift */; };
+		6DC24D1F198AEBE600186C31 /* SampleTagResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 6DC24D1E198AEBE600186C31 /* SampleTagResponse.json */; };
+		6DC24D21198AF64F00186C31 /* SampleTag.json in Resources */ = {isa = PBXBuildFile; fileRef = 6DC24D20198AF64F00186C31 /* SampleTag.json */; };
+		6DC24D23198B04CB00186C31 /* TagCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC24D22198B04CB00186C31 /* TagCell.swift */; };
+		6DC24D25198B051400186C31 /* TagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC24D24198B051400186C31 /* TagViewController.swift */; };
+		6DC24D2B198B0B7700186C31 /* MenuBaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC24D2A198B0B7700186C31 /* MenuBaseController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,8 +63,17 @@
 		6D14D2A11986F86E00E1396F /* SampleQuestion.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SampleQuestion.json; sourceTree = "<group>"; };
 		6D14D2A41986FF0E00E1396F /* SampleAnswer.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SampleAnswer.json; sourceTree = "<group>"; };
 		6D14D2AD1987036E00E1396F /* SampleUser.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SampleUser.json; sourceTree = "<group>"; };
+		6D23D5FD198B171400BB38DD /* MenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		6D23D603198B299F00BB38DD /* rootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rootViewController.swift; sourceTree = "<group>"; };
 		6DA6561719899B5600EBDAED /* QuestionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QuestionCell.swift; path = ../../StackClient/QuestionCell.swift; sourceTree = "<group>"; };
 		6DA656191989A6FC00EBDAED /* SampleResponse.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SampleResponse.json; sourceTree = "<group>"; };
+		6DC24D17198AEAAB00186C31 /* Tag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tag.swift; sourceTree = "<group>"; };
+		6DC24D19198AEB1B00186C31 /* TagTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagTests.swift; sourceTree = "<group>"; };
+		6DC24D1E198AEBE600186C31 /* SampleTagResponse.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SampleTagResponse.json; sourceTree = "<group>"; };
+		6DC24D20198AF64F00186C31 /* SampleTag.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SampleTag.json; sourceTree = "<group>"; };
+		6DC24D22198B04CB00186C31 /* TagCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagCell.swift; sourceTree = "<group>"; };
+		6DC24D24198B051400186C31 /* TagViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagViewController.swift; sourceTree = "<group>"; };
+		6DC24D2A198B0B7700186C31 /* MenuBaseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuBaseController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,15 +117,23 @@
 			children = (
 				6D14D2791986E86A00E1396F /* AppDelegate.swift */,
 				6DA6561719899B5600EBDAED /* QuestionCell.swift */,
+				6DC24D22198B04CB00186C31 /* TagCell.swift */,
+				6D23D5FD198B171400BB38DD /* MenuCell.swift */,
 				6D13FD461988575A008EC2E9 /* NetworkController.swift */,
+				6DC24D2A198B0B7700186C31 /* MenuBaseController.swift */,
+				6D23D603198B299F00BB38DD /* rootViewController.swift */,
 				6D14D27B1986E86A00E1396F /* ViewController.swift */,
+				6DC24D24198B051400186C31 /* TagViewController.swift */,
 				6D14D2961986E90100E1396F /* Question.swift */,
+				6DC24D17198AEAAB00186C31 /* Tag.swift */,
 				6D14D27D1986E86A00E1396F /* Main.storyboard */,
 				6D14D2801986E86A00E1396F /* Images.xcassets */,
 				6D14D2771986E86A00E1396F /* Supporting Files */,
 				6D14D2A01986F82800E1396F /* JSONParsing.playground */,
 				6D14D2A11986F86E00E1396F /* SampleQuestion.json */,
 				6DA656191989A6FC00EBDAED /* SampleResponse.json */,
+				6DC24D20198AF64F00186C31 /* SampleTag.json */,
+				6DC24D1E198AEBE600186C31 /* SampleTagResponse.json */,
 				6D14D2AD1987036E00E1396F /* SampleUser.json */,
 				6D14D2A41986FF0E00E1396F /* SampleAnswer.json */,
 			);
@@ -126,6 +153,7 @@
 			children = (
 				6D14D28C1986E86B00E1396F /* ModelClassTests.swift */,
 				6D14D29B1986F05600E1396F /* QuestionTests.swift */,
+				6DC24D19198AEB1B00186C31 /* TagTests.swift */,
 				6D14D28A1986E86B00E1396F /* Supporting Files */,
 			);
 			path = ModelClassTests;
@@ -222,6 +250,8 @@
 				6D14D2AE1987036E00E1396F /* SampleUser.json in Resources */,
 				6D14D27F1986E86A00E1396F /* Main.storyboard in Resources */,
 				6D14D2811986E86A00E1396F /* Images.xcassets in Resources */,
+				6DC24D1F198AEBE600186C31 /* SampleTagResponse.json in Resources */,
+				6DC24D21198AF64F00186C31 /* SampleTag.json in Resources */,
 				6D14D2A21986F86E00E1396F /* SampleQuestion.json in Resources */,
 				6DA6561A1989A6FC00EBDAED /* SampleResponse.json in Resources */,
 				6D14D2A51986FF0E00E1396F /* SampleAnswer.json in Resources */,
@@ -245,9 +275,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DC24D23198B04CB00186C31 /* TagCell.swift in Sources */,
+				6DC24D18198AEAAB00186C31 /* Tag.swift in Sources */,
 				6D13FD471988575A008EC2E9 /* NetworkController.swift in Sources */,
 				6D14D27C1986E86A00E1396F /* ViewController.swift in Sources */,
+				6D23D604198B299F00BB38DD /* rootViewController.swift in Sources */,
+				6DC24D2B198B0B7700186C31 /* MenuBaseController.swift in Sources */,
 				6D14D2971986E90100E1396F /* Question.swift in Sources */,
+				6D23D5FE198B171400BB38DD /* MenuCell.swift in Sources */,
+				6DC24D25198B051400186C31 /* TagViewController.swift in Sources */,
 				6D14D27A1986E86A00E1396F /* AppDelegate.swift in Sources */,
 				6DA6561819899B5600EBDAED /* QuestionCell.swift in Sources */,
 			);
@@ -257,7 +293,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DC24D1A198AEB1B00186C31 /* TagTests.swift in Sources */,
 				6D14D29F1986F54000E1396F /* Question.swift in Sources */,
+				6DC24D1B198AEB4500186C31 /* Tag.swift in Sources */,
 				6D14D28D1986E86B00E1396F /* ModelClassTests.swift in Sources */,
 				6D14D29C1986F05600E1396F /* QuestionTests.swift in Sources */,
 			);
