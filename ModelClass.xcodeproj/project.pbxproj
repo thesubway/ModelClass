@@ -26,6 +26,7 @@
 		6D23D604198B299F00BB38DD /* rootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D23D603198B299F00BB38DD /* rootViewController.swift */; };
 		6DA6561819899B5600EBDAED /* QuestionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA6561719899B5600EBDAED /* QuestionCell.swift */; };
 		6DA6561A1989A6FC00EBDAED /* SampleResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 6DA656191989A6FC00EBDAED /* SampleResponse.json */; };
+		6DAA0994198F00B10092A53B /* stackoverflowapp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6DAA0992198F00B10092A53B /* stackoverflowapp.xcdatamodeld */; };
 		6DC24D18198AEAAB00186C31 /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC24D17198AEAAB00186C31 /* Tag.swift */; };
 		6DC24D1A198AEB1B00186C31 /* TagTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC24D19198AEB1B00186C31 /* TagTests.swift */; };
 		6DC24D1B198AEB4500186C31 /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC24D17198AEAAB00186C31 /* Tag.swift */; };
@@ -33,7 +34,6 @@
 		6DC24D21198AF64F00186C31 /* SampleTag.json in Resources */ = {isa = PBXBuildFile; fileRef = 6DC24D20198AF64F00186C31 /* SampleTag.json */; };
 		6DC24D23198B04CB00186C31 /* TagCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC24D22198B04CB00186C31 /* TagCell.swift */; };
 		6DC24D25198B051400186C31 /* TagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC24D24198B051400186C31 /* TagViewController.swift */; };
-		6DC24D2B198B0B7700186C31 /* MenuBaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC24D2A198B0B7700186C31 /* MenuBaseController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,13 +67,14 @@
 		6D23D603198B299F00BB38DD /* rootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rootViewController.swift; sourceTree = "<group>"; };
 		6DA6561719899B5600EBDAED /* QuestionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QuestionCell.swift; path = ../../StackClient/QuestionCell.swift; sourceTree = "<group>"; };
 		6DA656191989A6FC00EBDAED /* SampleResponse.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SampleResponse.json; sourceTree = "<group>"; };
+		6DAA0993198F00B10092A53B /* stackoverflowapp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = stackoverflowapp.xcdatamodel; sourceTree = "<group>"; };
+		6DAA0996198F4C2E0092A53B /* ModelClass-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ModelClass-Bridging-Header.h"; sourceTree = "<group>"; };
 		6DC24D17198AEAAB00186C31 /* Tag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tag.swift; sourceTree = "<group>"; };
 		6DC24D19198AEB1B00186C31 /* TagTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagTests.swift; sourceTree = "<group>"; };
 		6DC24D1E198AEBE600186C31 /* SampleTagResponse.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SampleTagResponse.json; sourceTree = "<group>"; };
 		6DC24D20198AF64F00186C31 /* SampleTag.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SampleTag.json; sourceTree = "<group>"; };
 		6DC24D22198B04CB00186C31 /* TagCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagCell.swift; sourceTree = "<group>"; };
 		6DC24D24198B051400186C31 /* TagViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagViewController.swift; sourceTree = "<group>"; };
-		6DC24D2A198B0B7700186C31 /* MenuBaseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuBaseController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +101,7 @@
 				6D14D2761986E86A00E1396F /* ModelClass */,
 				6D14D2891986E86B00E1396F /* ModelClassTests */,
 				6D14D2751986E86A00E1396F /* Products */,
+				6DAA0996198F4C2E0092A53B /* ModelClass-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -116,11 +118,8 @@
 			isa = PBXGroup;
 			children = (
 				6D14D2791986E86A00E1396F /* AppDelegate.swift */,
-				6DA6561719899B5600EBDAED /* QuestionCell.swift */,
-				6DC24D22198B04CB00186C31 /* TagCell.swift */,
-				6D23D5FD198B171400BB38DD /* MenuCell.swift */,
+				6DAA0995198F08940092A53B /* Cells */,
 				6D13FD461988575A008EC2E9 /* NetworkController.swift */,
-				6DC24D2A198B0B7700186C31 /* MenuBaseController.swift */,
 				6D23D603198B299F00BB38DD /* rootViewController.swift */,
 				6D14D27B1986E86A00E1396F /* ViewController.swift */,
 				6DC24D24198B051400186C31 /* TagViewController.swift */,
@@ -136,6 +135,7 @@
 				6DC24D1E198AEBE600186C31 /* SampleTagResponse.json */,
 				6D14D2AD1987036E00E1396F /* SampleUser.json */,
 				6D14D2A41986FF0E00E1396F /* SampleAnswer.json */,
+				6DAA0992198F00B10092A53B /* stackoverflowapp.xcdatamodeld */,
 			);
 			path = ModelClass;
 			sourceTree = "<group>";
@@ -165,6 +165,16 @@
 				6D14D28B1986E86B00E1396F /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6DAA0995198F08940092A53B /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				6DA6561719899B5600EBDAED /* QuestionCell.swift */,
+				6DC24D22198B04CB00186C31 /* TagCell.swift */,
+				6D23D5FD198B171400BB38DD /* MenuCell.swift */,
+			);
+			name = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,8 +289,8 @@
 				6DC24D18198AEAAB00186C31 /* Tag.swift in Sources */,
 				6D13FD471988575A008EC2E9 /* NetworkController.swift in Sources */,
 				6D14D27C1986E86A00E1396F /* ViewController.swift in Sources */,
+				6DAA0994198F00B10092A53B /* stackoverflowapp.xcdatamodeld in Sources */,
 				6D23D604198B299F00BB38DD /* rootViewController.swift in Sources */,
-				6DC24D2B198B0B7700186C31 /* MenuBaseController.swift in Sources */,
 				6D14D2971986E90100E1396F /* Question.swift in Sources */,
 				6D23D5FE198B171400BB38DD /* MenuCell.swift in Sources */,
 				6DC24D25198B051400186C31 /* TagViewController.swift in Sources */,
@@ -407,9 +417,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = ModelClass/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ModelClass-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -418,9 +431,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = ModelClass/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ModelClass-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -489,6 +504,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6DAA0992198F00B10092A53B /* stackoverflowapp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6DAA0993198F00B10092A53B /* stackoverflowapp.xcdatamodel */,
+			);
+			currentVersion = 6DAA0993198F00B10092A53B /* stackoverflowapp.xcdatamodel */;
+			path = stackoverflowapp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 6D14D26C1986E86A00E1396F /* Project object */;
 }

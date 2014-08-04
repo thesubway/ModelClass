@@ -132,6 +132,9 @@
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="delegate" destination="Fax-cB-itG" id="DX1-dX-GKx"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -150,33 +153,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zng-mg-gF5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-2443" y="258"/>
-        </scene>
-        <!--Menu Base Controller-->
-        <scene sceneID="Xl7-h7-dfe">
-            <objects>
-                <viewController id="0Zq-Lv-mVO" customClass="MenuBaseController" customModule="ModelClass" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="ZKL-o8-i1Z"/>
-                        <viewControllerLayoutGuide type="bottom" id="ksO-Qw-apX"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="nJM-KH-leI">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="IUh-7o-csx">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </tableView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <connections>
-                        <outlet property="tableViewRoot" destination="IUh-7o-csx" id="sud-3J-Y3V"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="bXx-gr-SuG" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-2443" y="-1113"/>
         </scene>
         <!--Root View Controller-->
         <scene sceneID="kON-sq-uSQ">

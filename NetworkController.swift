@@ -122,7 +122,7 @@ class NetworkController {
                         print("data is: \n")
                         //json tutorials with xcode.
                         var JSON = NSJSONSerialization.JSONObjectWithData(data, options: nil, error: nil) as? NSDictionary
-                        println(JSON)
+                        //println(JSON)
                         //println(JSON["quota_max"])
                         var questions = self.parseSuccessfulResponse(data)
                         callback(questions: self.questions, errorDescription: nil)

@@ -60,8 +60,8 @@ class ViewController: UIViewController, UITableViewDataSource, UISearchBarDelega
             println(qCell.linkURL)
             //UIApplication.sharedApplication().openURL(NSURL(string: "www.google.com"))
             webView.hidden = false
-            var request = NSURLRequest(URL: NSURL(string: qCell.linkURL))
-            self.webView.loadRequest(request)
+            var convURL = NSURLRequest(URL: NSURL(string: qCell.linkURL))
+            self.webView.loadRequest(convURL)
 //            let rVC = self.storyboard.instantiateViewControllerWithIdentifier("rootView") as rootViewController
 //            let webVC = self.storyboard.instantiateViewControllerWithIdentifier("webViewController") as rootViewController
 //            rVC.showDetailViewController(webVC,sender: self)
